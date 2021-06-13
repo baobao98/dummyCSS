@@ -1,0 +1,165 @@
+html,
+body {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 6em;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.menu .logo {
+  flex-grow: 1;
+  width: 60%;
+}
+
+.menu-items {
+  display: flex;
+  list-style-type: none;
+  width: 40%;
+  justify-content: space-around;
+}
+
+.slide {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+}
+
+.slide>.left-slide {
+  background-color: #fb6355;
+  width: 32%;
+  height: 100%;
+  position: relative;
+}
+
+.slide>.right-slide {
+  width: 68%;
+}
+
+.left-side-content {
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  top: 50%;
+  margin-top: -65px;
+}
+
+.left-side-content>.cafe-title {
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0 0;
+}
+
+.left-side-content>h6 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 3px;
+  margin-top: 5px;
+}
+
+.left-side-content .reservation-btn {
+  font-size: 13px;
+  color: #fb5849;
+  background-color: #fff;
+  padding: 12px 25px;
+  display: inline-block;
+  border-radius: 3px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  margin-top: 7rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.about-us>.left--about-us {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 6rem;
+}
+
+.about-us>.right--about-us {
+  width: 50%;
+}
+
+.left--about-us>h6 {
+  position: relative;
+  font-size: 15px;
+  color: #fb5849;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-left: 40px;
+  padding-right: 15px;
+  margin-top: 0;
+}
+
+.left--about-us>h2 {
+  line-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #2a2a2a;
+  padding-right: 160px;
+}
+
+.left--about-us>p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #2a2a2a;
+  margin-bottom: 25px;
+}
+
+.left--about-us>.about-img-container {
+  display: flex;
+}
+
+
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
